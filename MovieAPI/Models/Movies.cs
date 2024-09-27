@@ -35,6 +35,5 @@ namespace MovieAPI.Models
 
         [BsonElement("reviewIds")]
         public List<Review>? ReviewIds { get; set; }
-
     }
 }
